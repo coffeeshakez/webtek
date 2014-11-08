@@ -1,0 +1,40 @@
+<html>
+<head>
+    <link rel="stylesheet"  type="text/css" href="dropdowntest.css"> 
+    <script src="dropdowntest.js"></script>
+    <title></title>
+</head>
+<body>
+
+    <ul id="sddm">
+    <li><a href="#" 
+        onmouseover="mopen('m1')" 
+        onmouseout="mclosetime()">Home</a>
+        <div id="m1" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="#">HTML/CSS</a>
+        <a href="#">DHTML Menu</a>
+        <a href="#">JavaScript</a>
+        </div>
+    </li>
+    <li><a href="#" 
+        onmouseover="mopen('m2')" 
+        onmouseout="mclosetime()">Products</a>
+        <div id="m2" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="#">ASP Server-side</a>
+        <a href="#">Pulldown navigation</a>
+        <a href="#">AJAX Drop Submenu</a>
+        <a href="#">DIV Cascading </a>
+        </div>
+    </li>
+    <li><a href="#">Order</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+<div style="clear:both"></div>
+
+</body>
+</html>
