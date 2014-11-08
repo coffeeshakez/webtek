@@ -26,8 +26,32 @@
 
 	<div id="contentContainer">
 
-		<div class = "centeredBox">something</div>
-
+		<div class = "centeredBox">something
+		<script>
+		if (window.XMLHttpRequest)
+			{// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();
+			}
+		else
+			{// code for IE6, IE5
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+		xmlhttp.open("GET","products.xml",true);
+		xmlhttp.onreadystatechange = function(){
+			document.getElementById("prod1").innerHTML = xmlhttp.responseXML;
+		}
+		
+		
+		
+		xmlhttp.send();
+		xmlDoc=xmlhttp.responseXML;
+		
+		
+		</script>
+		
+		
+		</div>
+		
 
 	</div>
 

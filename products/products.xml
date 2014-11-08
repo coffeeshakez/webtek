@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+	<product id="prod1">
+		<productHeader>2D Glasses </productHeader>
+		<price>250</price>
+		<inStock>0</inStock>
+		<productInfo>Do you want to live in a magical two dimensional world?
+		Well now you can! Sad Penguin Fun Shop proudly present the life changing 
+		2D glasses. </productInfo>
+		<hotpoints>
+			<points>Lightweight, comfertable 2D active glasses</points>
+			<points>70 hours of 2D viewing</points>
+			<points>Compatible with all types of light</points>
+		</hotpoints>
+	</product>
+	<product id="prod2">
+		<productHeader>Invisble Ink</productHeader>
+		<price>25</price>
+		<inStock>50</inStock>
+		<productInfo> Invisible ink is a lot of fun, you can pretend you are a secret agent as you
+		keep all your secret codes and messages hidden from others. With Sad Penguin Fun Shops incredible 
+		invisible ink no one will ever read your secret messages.</productInfo>
+		<hotpoints>
+			<points>worry-free handling - smudge, fade and water resistant</points>
+			<points>Approximately 250 pages in each bottle</points>
+			<points>Compatible with all quills</points>
+		</hotpoints>
+	</product>
+	<product id="prod3">
+		<productHeader>YOLO Attitude</productHeader>
+		<price>2500</price>
+		<inStock>150</inStock>
+		<productInfo>Do you want to enjoy life? The new YOLO attitude fragrance
+		will make you happy, sexy and successful. 50% of the time it works every time</productInfo>
+		<hotpoints>
+			<points>FRAGRANCE NOTES - lavender, elksweat, musk and sandalwood.</points>
+			<points>Approximately 450 squirts in each bottle</points>
+			<points>Recommended for daytime use</points>
+		</hotpoints>
+	</product>
+	<product id="prod4">
+		<productHeader>Cordless Extension Cord</productHeader>
+		<price>35</price>
+		<inStock>89</inStock>
+		<productInfo>The new Cordless Extension Cord only available from the world famous
+		Sad Penguin Fun Shop. Say good bye to tripping over your old extension cords when coming home drunk. 
+		No more messy electronic clutter with the new cordless extension cord 
+		</productInfo>
+		<hotpoints>
+			<points>Completly wireless</points>
+			<points>10 plug in points</points>
+			<points>does not include batteries</points>
+		</hotpoints>
+	</product>	
+	
+
+</products>
