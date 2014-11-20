@@ -39,20 +39,70 @@
 			<points>Recommended for daytime use</points>
 		</hotpoints>
 	</product>
-	<product id="prod4">
-		<productHeader>Cordless Extension Cord</productHeader>
-		<price>35</price>
-		<inStock>89</inStock>
-		<productInfo>The new Cordless Extension Cord only available from the world famous
-		Sad Penguin Fun Shop. Say good bye to tripping over your old extension cords when coming home drunk. 
-		No more messy electronic clutter with the new cordless extension cord 
-		</productInfo>
-		<hotpoints>
-			<points>Completly wireless</points>
-			<points>10 plug in points</points>
-			<points>does not include batteries</points>
-		</hotpoints>
-	</product>	
+    <product id="prod4">
+        <productHeader>Cordless Extension Cord</productHeader>
+        <price>35</price>
+        <inStock>89</inStock>
+        <productInfo>The new Cordless Extension Cord only available from the world famous
+            Sad Penguin Fun Shop. Say good bye to tripping over your old extension cords when coming home drunk.
+            No more messy electronic clutter with the new cordless extension cord
+        </productInfo>
+        <hotpoints>
+            <points>Completly wireless</points>
+            <points>10 plug in points</points>
+            <points>does not include batteries</points>
+        </hotpoints>
+    </product>
+    <product id="prod5">
+        <productHeader>Be your self-costume</productHeader>
+        <price>75</price>
+        <inStock>200</inStock>
+        <productInfo>With this spectacular new costume, you can be yourself all the time. No need for a halloween-costume, just be yourself with this spectacular costume.
+        </productInfo>
+        <hotpoints>
+            <points>Why dress up as something else when you can be yourself?</points>
+            <points>You can even be naked, if that is who you are!</points>
+            <points>Buy three, get one for half the price!</points>
+        </hotpoints>
+    </product>
+    <product id="prod6">
+        <productHeader>Glass of SWAG</productHeader>
+        <price>20</price>
+        <inStock>17</inStock>
+        <productInfo>How many times have you been in a situation where you think "Damn, I wish I had some swag"?
+            Well, not anymore! If you ever come in a situation where you need SWAG, just pull out your glass of SWAG and SWAG it out.
+        </productInfo>
+        <hotpoints>
+            <points>SWAG</points>
+            <points>One glass contains 5 SWAGs</points>
+            <points>Solves all your problems</points>
+        </hotpoints>
+    </product>
+    <product id="prod7">
+        <productHeader>Keyless Keyboard</productHeader>
+        <price>50</price>
+        <inStock>49</inStock>
+        <productInfo>Hate typing? With the Keyless Keyboard from Sad Penguin Fun Shop, you never have to type again. Just plug it into your computer and enjoy your Keyless life.
+        </productInfo>
+        <hotpoints>
+            <points>Absolutely no keys</points>
+            <points>Compatible with the Cordless Extension Cord</points>
+            <points>The most efficient keyless keyboard on the market</points>
+        </hotpoints>
+    </product>
+    <product id="prod8">
+        <productHeader>Mystery package</productHeader>
+        <price>70</price>
+        <inStock>∞</inStock>
+        <productInfo> A package that contains a surprise. It might be something we sell or it might be something completely different. It's a SURPRISE!
+        </productInfo>
+        <hotpoints>
+            <points>What could it be?</points>
+            <points>It's a mystery!</points>
+            <points>It's a surprise!'</points>
+        </hotpoints>
+    </product>
+    
 	
 
 </products>
