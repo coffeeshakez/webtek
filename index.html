@@ -13,14 +13,18 @@
 	<div id="mainContent">
 	
 	<div id = "header">
-		<img id="headerPic" src="images/headerPic.png" alt="headerPic" width="150px" height="150px">
+		<img id="headerPic" src="images/headerPic.png" alt="headerPic" width=150 height=150>
 		<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
 	</div>
 
 	<div id="nav">
 		<ul id = "navigationBar">
 			<li ><a href="">Home</a></li>
-			<li id="dropdown"><a href="" >Categories</a></li>
+			<li id="dropdown" onclick="show()"><a href="" >Categories</a>
+				<ul id="menu" style="display:none" onmouseout="hide()">
+				</ul>
+
+			</li>
 			<li ><a href="about.html">About</a></li>
 			<li ><a href="contact.html"  >Contact</a></li>
 			<li ><a href="">Sitemap</a></li>

@@ -8,3 +8,6 @@ Siden heter “Sad penguin fun shop”, inspirert fra en random business navn ge
 Farge/stil Valg:
 
 - Bruker hovedsakelig Svart, Hvitt og Orange fordi PINGVIN!<3 
+
+Didrik:
+ - Lagt til canvas med bilder på about.html
