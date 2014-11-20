@@ -4,6 +4,7 @@
 	margin-left: auto;
 	width: 90%;
 	box-shadow: -1px 12px 10px 5px lightgray;
+
 }
 
 #headerPic{
@@ -20,39 +21,11 @@
 	padding-top: 50px;	
 }
 
-#navigationBar{
-	width: 100%;
-	float:left;
-	margin: 0;
-	padding:0;
-	list-style: none;
-	background-color: black;
-}
-
-#navigationBar li{
-	float:left;
-}
-
-#navigationBar li a{
-	display: block;
-	padding: 8px 15px ;
-	text-decoration: none;
-	font-weight: bold;
-	color:white;
-}
-
-li{
-	width: 20%;
-	text-align: center;
-}
-
-a:hover{
-	background-color: #FFB84D;
-}
-
 body{
 
 	font-family: helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
 }
 
 @font-face {
@@ -69,9 +42,6 @@ body{
 	margin-top: 0;
 }
 
-#nav{
-	margin-bottom: 0px;
-}
 
 #contentContainer{
 	width: 100%;
@@ -99,9 +69,8 @@ body{
    word-wrap: break-word;
 	border-top:solid 1px;
 	margin-top: 79%;
-	
-
 }
+
 .wordwrap { 
    white-space: pre-wrap;      /* CSS3 */   
    white-space: -moz-pre-wrap; /* Firefox */    
@@ -169,6 +138,74 @@ footer{
 	padding-top: 100px;
 }
 
-label{
+#sddm
+{	margin: 0;
+	padding: 0;
+	width: 100%;
+	}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+	width: 20%;
+	background-color: black;
+
 
 }
+
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	background: black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#sddm li a:hover
+{	background: white;
+	color: black;
+}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: white;
+	width: 20%;
+	border: 1px solid black;}
+
+
+#sddm div a
+{	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: white;
+	color: black;
+	font: 11px arial;
+}
+
+#sddm div a:hover
+{	background: black;
+	color: white}
+
+#m1{
+	background-color: white;
+	z-index: 30;
+}
+
+

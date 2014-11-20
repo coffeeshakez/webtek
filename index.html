@@ -5,10 +5,14 @@
     <title>Sad Penguin Fun Stuff</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="images/sad.ico" >
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="dropdowntest.js"></script>
+
 
 </head>
 <body>
+
+
+    
 
 	<div id="mainContent">
 	
@@ -17,15 +21,36 @@
 		<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
 	</div>
 
+
 	<div id="nav">
-		<ul id = "navigationBar">
-			<li ><a href="">Home</a></li>
-			<li id="dropdown"><a href="" >Categories</a></li>
-			<li ><a href="about.html">About</a></li>
-			<li ><a href="contact.html"  >Contact</a></li>
-			<li ><a href="">Sitemap</a></li>
-		</ul>
-	</div>
+
+    <ul id="sddm">
+    <li><a href="#">Home</a>
+        
+    </li>
+    <li><a href="#" 
+        onmouseover="mopen('m1')" 
+        onmouseout="mclosetime()">Products</a>
+        <div id="m1" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="#">ASP Server-side</a>
+        <a href="#">Pulldown navigation</a>
+        <a href="#">AJAX Drop Submenu</a>
+        <a href="#">DIV Cascading </a>
+        </div>
+    </li>
+    <li><a href="#">Order</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+</div>
+
+</body>
+</html>
+
+	
 
 	<div id = "contentContainer">
 		<div class = "product">

@@ -1,13 +1,20 @@
-var menu;
+var menu
 
-document.addEventListener("load", function(){
-	menu = document.getElementById("dropdown");
-	menu.addEventListener("click", drop);
-})
 
-function drop(){
-	console.log("hei");
+window.addEventListener("load", function(){
 
-};
+menu = document.getElementById("m1")
+console.log("yeye")
+
+} )
+
+
+function mopen(){
+	menu.style.display = "block"
+}
+
+function mclose(){
+	menu.style.display = "none"
+}
 
 
