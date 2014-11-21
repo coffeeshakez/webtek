@@ -50,9 +50,97 @@
 		<hotpoints>
 			<points>Completly wireless</points>
 			<points>10 plug in points</points>
-			<points>does not include batteries</points>
+			<points>Does not include batteries</points>
 		</hotpoints>
 	</product>	
-	
-
+	<product id="prod5">
+		<productHeader>Swag in a can</productHeader>
+		<price>60</price>
+		<inStock>1289</inStock>
+		<productInfo>Who needs education or a job? that's for losers! The new Swag in a can
+		will help you stay cool for the rest of your life. Throw away all your responsibilities, 
+		worries and anxiety and breeze through life with loads of swag. 	
+		</productInfo>
+		<hotpoints>
+			<points>3 times as potent as mojo</points>
+			<points>Comes with free swag dispenser</points>
+			<points>Batteries are included</points>
+		</hotpoints>
+	</product>
+	<product id="prod6">
+		<productHeader>Fake Real beard</productHeader>
+		<price>40</price>
+		<inStock>50</inStock>
+		<productInfo>Do you want to look like the manly man you are on the inside,
+		but you are unable to grow facial hair? Don't worry, stop being a sham of a man
+		and become a manly man with the fake real beard.
+		Sad Penguin Fun Shop proudly present the No Shave November special 
+		super saver offer! Get two fake real beards for the price of one!
+		
+		</productInfo>
+		<hotpoints>
+			<points>Comes in three different colours</points>
+			<points>Also works as face warmer and soup catcher</points>
+			<points>USB compatible</points>
+		</hotpoints>
+	</product>
+	<product id="prod7">
+		<productHeader>Virtual Reality Eye Drops</productHeader>
+		<price>500</price>
+		<inStock>15</inStock>
+		<productInfo> The newest in Virtual Reality simulation. Forget everything you have seen
+		and prepare for the awesomeness of Virtual Reality Eye drops. Virtual Reality Eye drops
+		are so realistic that they will make you question your perception of reality for ever.
+		
+		</productInfo>
+		<hotpoints>
+			<points>Might anti materialism</points>
+			<points>100 eye drops in each bottle</points>
+			<points>Supports WiFi</points>
+		</hotpoints>
+	</product>
+	<product id="prod8">
+		<productHeader>Zero Point Gravity Manipulator</productHeader>
+		<price>50000</price>
+		<inStock>3</inStock>
+		<productInfo>the Zero Point Gravity Manipulator or gravity gun for short means 
+		you can say goodbye to heavy lifting, bending down and other nuisances that occur
+		when moving objects. 
+		</productInfo>
+		<hotpoints>
+			<points>Makes heavy lifting fun</points>
+			<points>Can lift anything</points>
+			<points>Useful for smashing crates and throwing barrels</points>
+		</hotpoints>
+	</product>
+	<product id="prod9">
+		<productHeader>The Internet Cube</productHeader>
+		<price>3.50</price>
+		<inStock>3</inStock>
+		<productInfo> Ships inside bottles is so last century. Now you can get the Internet 
+		in a cube. The Internet Cube connects to any available wireless network and stays 
+		connected. Impress your family and friends with this breathtaking awe inspiring 
+		gadget from the future
+		
+		</productInfo>
+		<hotpoints>
+			<points>Comes in a colour</points>
+			<points>LED lights show when the internet is in the cube</points>
+			<points>Comes with a free pair of socks</points>
+		</hotpoints>
+	</product>
+		<product id="prod10">
+		<productHeader>Zero Point Gravity Manipulator</productHeader>
+		<price>50000</price>
+		<inStock>3</inStock>
+		<productInfo>the Zero Point Gravity Manipulator or gravity gun for short means 
+		you can say goodbye to heavy lifting, bending down and other nuisances that occur
+		when moving objects. 
+		</productInfo>
+		<hotpoints>
+			<points>Makes heavy lifting fun</points>
+			<points>Can lift anything</points>
+			<points>Useful for smashing crates and throwing barrels</points>
+		</hotpoints>
+	</product>
 </products>
