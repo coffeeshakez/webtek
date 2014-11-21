@@ -53,7 +53,7 @@
             <points>does not include batteries</points>
         </hotpoints>
     </product>
-    <product id="prod5">
+    <product id="prod10">
         <productHeader>Be your self-costume</productHeader>
         <price>75</price>
         <inStock>200</inStock>
@@ -65,7 +65,7 @@
             <points>Buy three, get one for half the price!</points>
         </hotpoints>
     </product>
-    <product id="prod6">
+    <product id="prod11">
         <productHeader>Glass of SWAG</productHeader>
         <price>20</price>
         <inStock>17</inStock>
@@ -78,7 +78,7 @@
             <points>Solves all your problems</points>
         </hotpoints>
     </product>
-    <product id="prod7">
+    <product id="prod12">
         <productHeader>Keyless Keyboard</productHeader>
         <price>50</price>
         <inStock>49</inStock>
@@ -90,7 +90,7 @@
             <points>The most efficient keyless keyboard on the market</points>
         </hotpoints>
     </product>
-    <product id="prod8">
+    <product id="prod13">
         <productHeader>Mystery package</productHeader>
         <price>70</price>
         <inStock>∞</inStock>
