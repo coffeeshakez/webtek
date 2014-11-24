@@ -1,7 +1,6 @@
 var xml;
 var xmlContainer;
 var xmlDoc;
-var productIndex = 5;
 var xmlDoc
 var products
 var header
@@ -9,12 +8,10 @@ var price;
 var stock;
 var hotpoints;
 var info;
-
-
+var productIndex = getParameterByName('index');
 
 		window.addEventListener("load", getxmldata
 		);
-
 
 		function getxmldata(){
 			
@@ -60,6 +57,15 @@ var info;
 		    	}
 			}
 		}
+
+		function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+
 		
 
 		
