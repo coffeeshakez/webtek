@@ -18,31 +18,37 @@
 	</div>
 
 	<div id="nav">
-		<ul id = "navigationBar">
-			<li ><a href="index.html"  >Home</a></li>
-			<li id="dropdown"><a href="" >Categories</a></li>
-			<li ><a href="about.html">About</a></li>
-			<li ><a href="contact.html"  >Contact</a></li>
-			<li ><a href="">Sitemap</a></li>
-		</ul>
-	</div>
+    <ul id="sddm">
+    <li><a href="index.html">Home</a>
+        
+    </li>
+    <li><a href="#" 
+        onmouseover="mopen('m1')" 
+        onmouseout="mclosetime()">Products</a>
+        <div id="m1" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="#">Category1</a>
+        <a href="#">Category2</a>
+        <a href="#">Category3</a>
+        <a href="#">Category4 </a>
+        </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#">Sitemap</a></li>
+</ul>
 
+</div>
 
-	<div id="contentContainer">
+	<div id = "productInfo">
 
-<<<<<<< Updated upstream
-		<div class = "centeredBox">something
+		<div class = "productheader"></div>
+		<div class = "price"></div>
+		<div class = "inStock"></div>
+		<div class = "productInfo"></div>
+		<div class = "hotpoints"></div>
 		
-		<script>
-		
-		
-		
-		</script>
-=======
->>>>>>> Stashed changes
-		
-		
-		</div>
 	</div>
 
 	<footer class="textAlignCenter"> All rights reserved</footer>

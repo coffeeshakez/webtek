@@ -27,6 +27,7 @@ var xmlDoc;
 				var xmlDoc = xmlhttp.responseXML;
 				x = xmlDoc.getElementsByTagName("product")
 
+				
 				for(i = 0; x.length; i++){
 					console.log(x[i].childNodes[0].childNodes[0].getValue)
 				}

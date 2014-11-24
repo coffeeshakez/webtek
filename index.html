@@ -9,44 +9,40 @@
 
 
 </head>
-<body>
 
+<body>
 	<div id="mainContent">
-	
-	<div id = "header">
-		<img id="headerPic" src="images/headerPic.png" alt="headerPic" width=150 height=150>
-		<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
+
+		<div id = "header">
+			<img id="headerPic" src="images/headerPic.png" alt="headerPic" width=150 height=150>
+			<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
+		</div>
+
+	<div id="nav">
+	    <ul id="sddm">
+	    	<li><a href="index.html">Home</a></li>
+	    	<li><a href="products/product.html" 
+	        	onmouseover="mopen('m1')" 
+	        	onmouseout="mclosetime()">Products</a>
+	        	<div id="m1" 
+	            	onmouseover="mcancelclosetime()" 
+	            	onmouseout="mclosetime()">
+	        		<a href="#">Category1</a>
+	        		<a href="#">Category2</a>
+	        		<a href="#">Category3</a>
+	        		<a href="#">Category4 </a>
+	        	</div>
+	    	</li>
+		    <li><a href="contact.html">Contact</a></li>
+		    <li><a href="about.html">About</a></li>
+		    <li><a href="#">Sitemap</a></li>
+		</ul>
 	</div>
 
 
-	<div id="nav">
-
-
-    <ul id="sddm">
-    <li><a href="index.html">Home</a>
-        
-    </li>
-    <li><a href="/products/product.html" 
-        onmouseover="mopen('m1')" 
-        onmouseout="mclosetime()">Products</a>
-        <div id="m1" 
-            onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-        <a href="#">Category1</a>
-        <a href="#">Category2</a>
-        <a href="#">Category3</a>
-        <a href="#">Category4 </a>
-        </div>
-    </li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="#">Sitemap</a></li>
-</ul>
-
-</div>
-
 
 	<div id = "contentContainer">
+
 		<div class = "product">
 			<h3>Overskrift</h3>
 			<div class = "description">Produkt1</div>
@@ -86,10 +82,10 @@
 			<h3>Overskrift</h3>
 			<div class = "description">Produkt8</div>
 		</div>
-	
-</div>
+	</div>
 
-<footer class="textAlignCenter"> All rights reserved</footer>
-</div>
+ <footer class="textAlignCenter"> All rights reserved</footer>
+</div> 
+
 </body>
 </html>
