@@ -3,6 +3,7 @@
 <products>
 	<product id="prod1">
 		<productHeader>2D Glasses </productHeader>
+        <pictureLink>../images/2dglasses.png</pictureLink>
 		<price>250</price>
 		<inStock>0</inStock>
 		<productInfo>Do you want to live in a magical two dimensional world?
@@ -16,6 +17,7 @@
 	</product>
 	<product id="prod2">
 		<productHeader>Invisble Ink</productHeader>
+        <pictureLink>../images/invisibleink.jpg</pictureLink>
 		<price>25</price>
 		<inStock>50</inStock>
 		<productInfo> Invisible ink is a lot of fun, you can pretend you are a secret agent as you
@@ -29,6 +31,7 @@
 	</product>
 	<product id="prod3">
 		<productHeader>YOLO Attitude</productHeader>
+        <pictureLink>../images/yolo.jpg</pictureLink>
 		<price>2500</price>
 		<inStock>150</inStock>
 		<productInfo>Do you want to enjoy life? The new YOLO attitude fragrance
@@ -41,6 +44,7 @@
 	</product>
     <product id="prod4">
         <productHeader>Cordless Extension Cord</productHeader>
+        <pictureLink>../images/extensioncord.jpg</pictureLink>
         <price>35</price>
         <inStock>89</inStock>
         <productInfo>The new Cordless Extension Cord only available from the world famous
@@ -53,8 +57,89 @@
             <points>does not include batteries</points>
         </hotpoints>
     </product>
+        <product id="prod5">
+        <productHeader>Swag in a can</productHeader>
+        <pictureLink>../images/swag.jpg</pictureLink>
+        <price>60</price>
+        <inStock>1289</inStock>
+        <productInfo>Who needs education or a job? that's for losers! The new Swag in a can
+        will help you stay cool for the rest of your life. Throw away all your responsibilities, 
+        worries and anxiety and breeze through life with loads of swag.     
+        </productInfo>
+        <hotpoints>
+            <points>3 times as potent as mojo</points>
+            <points>Comes with free swag dispenser</points>
+            <points>Batteries are included</points>
+        </hotpoints>
+    </product>
+    <product id="prod6">
+        <productHeader>Fake Real beard</productHeader>
+        <pictureLink>../images/</pictureLink>
+        <price>40</price>
+        <inStock>50</inStock>
+        <productInfo>Do you want to look like the manly man you are on the inside,
+        but you are unable to grow facial hair? Don't worry, stop being a sham of a man
+        and become a manly man with the fake real beard.
+        Sad Penguin Fun Shop proudly present the No Shave November special 
+        super saver offer! Get two fake real beards for the price of one!
+        
+        </productInfo>
+        <hotpoints>
+            <points>Comes in three different colours</points>
+            <points>Also works as face warmer and soup catcher</points>
+            <points>USB compatible</points>
+        </hotpoints>
+    </product>
+    <product id="prod7">
+        <productHeader>Virtual Reality Eye Drops</productHeader>
+        <pictureLink>../images/</pictureLink>
+        <price>500</price>
+        <inStock>15</inStock>
+        <productInfo> The newest in Virtual Reality simulation. Forget everything you have seen
+        and prepare for the awesomeness of Virtual Reality Eye drops. Virtual Reality Eye drops
+        are so realistic that they will make you question your perception of reality for ever.
+        
+        </productInfo>
+        <hotpoints>
+            <points>Might anti materialism</points>
+            <points>100 eye drops in each bottle</points>
+            <points>Supports WiFi</points>
+        </hotpoints>
+    </product>
+    <product id="prod8">
+        <productHeader>Zero Point Gravity Manipulator</productHeader>
+        <pictureLink>../images/</pictureLink>
+        <price>50000</price>
+        <inStock>3</inStock>
+        <productInfo>the Zero Point Gravity Manipulator or gravity gun for short means 
+        you can say goodbye to heavy lifting, bending down and other nuisances that occur
+        when moving objects. 
+        </productInfo>
+        <hotpoints>
+            <points>Makes heavy lifting fun</points>
+            <points>Can lift anything</points>
+            <points>Useful for smashing crates and throwing barrels</points>
+        </hotpoints>
+    </product>
+    <product id="prod9">
+        <productHeader>The Internet Cube</productHeader>
+        <pictureLink>../images/</pictureLink>
+        <price>3.50</price>
+        <inStock>3</inStock>
+        <productInfo> Ships inside bottles is so last century. Now you can get the Internet 
+        in a cube. The Internet Cube connects to any available wireless network and stays 
+        connected. Impress your family and friends with this breathtaking awe inspiring 
+        gadget from the future
+        
+        </productInfo>
+        <hotpoints>
+            <points>Comes in a colour</points>
+            <points>LED lights show when the internet is in the cube</points>
+            <points>Comes with a free pair of socks</points>
+        </hotpoints>
     <product id="prod10">
         <productHeader>Be your self-costume</productHeader>
+        <pictureLink>../images/bsinessman.png</pictureLink>
         <price>75</price>
         <inStock>200</inStock>
         <productInfo>With this spectacular new costume, you can be yourself all the time. No need for a halloween-costume, just be yourself with this spectacular costume.
@@ -66,20 +151,8 @@
         </hotpoints>
     </product>
     <product id="prod11">
-        <productHeader>Glass of SWAG</productHeader>
-        <price>20</price>
-        <inStock>17</inStock>
-        <productInfo>How many times have you been in a situation where you think "Damn, I wish I had some swag"?
-            Well, not anymore! If you ever come in a situation where you need SWAG, just pull out your glass of SWAG and SWAG it out.
-        </productInfo>
-        <hotpoints>
-            <points>SWAG</points>
-            <points>One glass contains 5 SWAGs</points>
-            <points>Solves all your problems</points>
-        </hotpoints>
-    </product>
-    <product id="prod12">
         <productHeader>Keyless Keyboard</productHeader>
+        <pictureLink>../images/keylesskeyboard.jpg</pictureLink>
         <price>50</price>
         <inStock>49</inStock>
         <productInfo>Hate typing? With the Keyless Keyboard from Sad Penguin Fun Shop, you never have to type again. Just plug it into your computer and enjoy your Keyless life.
@@ -90,8 +163,9 @@
             <points>The most efficient keyless keyboard on the market</points>
         </hotpoints>
     </product>
-    <product id="prod13">
+    <product id="prod12">
         <productHeader>Mystery package</productHeader>
+        <pictureLink>../images/mysterypackage.jpg</pictureLink>
         <price>70</price>
         <inStock>∞</inStock>
         <productInfo> A package that contains a surprise. It might be something we sell or it might be something completely different. It's a SURPRISE!
