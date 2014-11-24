@@ -12,7 +12,7 @@ window.addEventListener("load", function(){
 	didrik = document.getElementById("didrik");
 	cdidrik = didrik.getContext("2d");
 	dimg = new Image();
-	dimg.src="images/didrik.jpeg";
+	dimg.src="images/didrik.jpg";
 	dimg.addEventListener("load", drawDidrik);
 	daimg = new Image();
 	daimg.src="images/david.jpg";
