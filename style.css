@@ -15,7 +15,6 @@
 	margin: 0px;
 }
 
-
 #headerPic{
 	float:left;	
 	margin-left: 50px;
@@ -50,16 +49,26 @@ body, html{
 	margin-right: auto;
 	margin-left: auto;
 	overflow: auto;
+
 }
 
 #contentContainer .product{
 	width: 20%;
-	height: 20%;
-	border:solid 1px;
+	max-height: 300px;
+	
 	margin: 20px;
 	float: left;
-	border-radius: 3px;
+	
+	padding:0;
+	text-align: center;
+}
 
+#contentContainer .product img{
+	max-width:100%; 
+	height: 150px;
+	padding:0;
+	margin: 0;
+	
 }
 
 .product .description{
@@ -68,8 +77,8 @@ body, html{
    white-space: -pre-wrap;     /* Opera <7 */   
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;
-	border-top:solid 1px;
-	margin-top: 79%;
+	
+	
 }
 
 .wordwrap { 
@@ -139,7 +148,6 @@ footer{
 	padding-top: 100px;
 }
 
-
 #sddm
 {	margin: 0;
 	padding: 0;
@@ -182,7 +190,8 @@ footer{
 	padding: 0;
 	background: white;
 	width: 250px;
-	border: 2px solid black;}
+	border: 2px solid black;
+}
 
 
 #sddm div a
