@@ -216,3 +216,61 @@ footer{
 	background-color: white;
 	z-index: 30;
 }
+#productInfo{
+	width:500px;
+    height:500px;
+    margin-right:auto;
+    margin-left: auto;
+    float: left;
+}
+#goback img{
+	margin-top: 50%;
+}
+#goback{
+	width:324px;
+    height:500px;
+    margin-right:auto;
+    margin-left: auto;
+    float: left;
+
+}
+#goforward img{
+	margin-top: 50%;
+	float:right;
+}
+#goforward{
+	width:324px;
+    height:500px;
+    margin-left: auto;
+
+}
+
+.productheader{
+	font-size: 250%;
+	font-family: helvetica, sans-serif;
+
+}
+.inStock{
+	font-family: helvetica, sans-serif;
+	float: right;
+}
+.price{
+	font-family: helvetica, sans-serif;
+	float: right;
+}
+.productInfo{
+	font-family: helvetica, sans-serif;
+
+
+}
+.hotpoints{
+	font-family: helvetica, sans-serif;
+
+
+}
+.prodpic{
+	font-family: helvetica, sans-serif;
+	float:left;
+	margin-right: 5px;
+}
+
