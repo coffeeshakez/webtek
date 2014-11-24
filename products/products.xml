@@ -2,8 +2,9 @@
 
 <products>
 	<product id="prod1">
+        <category>gadgets</category>
 		<productHeader>2D Glasses </productHeader>
-        <pictureLink>../images/2dglasses.png</pictureLink>
+        <pictureLink><img href="../images/2dglasses.png"></pictureLink>
 		<price>250</price>
 		<inStock>0</inStock>
 		<productInfo>Do you want to live in a magical two dimensional world?
@@ -16,8 +17,9 @@
 		</hotpoints>
 	</product>
 	<product id="prod2">
+        <category>lifehack</category>
 		<productHeader>Invisble Ink</productHeader>
-        <pictureLink>../images/invisibleink.jpg</pictureLink>
+        <pictureLink><img href="../images/invisibleink.jpg"></pictureLink>
 		<price>25</price>
 		<inStock>50</inStock>
 		<productInfo> Invisible ink is a lot of fun, you can pretend you are a secret agent as you
@@ -30,8 +32,9 @@
 		</hotpoints>
 	</product>
 	<product id="prod3">
+        <category>lifehack</category>
 		<productHeader>YOLO Attitude</productHeader>
-        <pictureLink>../images/yolo.jpg</pictureLink>
+        <pictureLink><img href="../images/yolo.jpg"></pictureLink>
 		<price>2500</price>
 		<inStock>150</inStock>
 		<productInfo>Do you want to enjoy life? The new YOLO attitude fragrance
@@ -43,8 +46,9 @@
 		</hotpoints>
 	</product>
     <product id="prod4">
+        <category>gadgets</category>
         <productHeader>Cordless Extension Cord</productHeader>
-        <pictureLink>../images/extensioncord.jpg</pictureLink>
+        <pictureLink><img href="../images/extensioncord.jpg"></pictureLink>
         <price>35</price>
         <inStock>89</inStock>
         <productInfo>The new Cordless Extension Cord only available from the world famous
@@ -58,8 +62,9 @@
         </hotpoints>
     </product>
         <product id="prod5">
+        <category>lifehack</category>
         <productHeader>Swag in a can</productHeader>
-        <pictureLink>../images/swag.jpg</pictureLink>
+        <pictureLink><img href="../images/swag.jpg"></pictureLink>
         <price>60</price>
         <inStock>1289</inStock>
         <productInfo>Who needs education or a job? that's for losers! The new Swag in a can
@@ -73,8 +78,9 @@
         </hotpoints>
     </product>
     <product id="prod6">
+        <category>other</category>
         <productHeader>Fake Real beard</productHeader>
-        <pictureLink>../images/</pictureLink>
+        <pictureLink><img href="../images/"></pictureLink>
         <price>40</price>
         <inStock>50</inStock>
         <productInfo>Do you want to look like the manly man you are on the inside,
@@ -91,8 +97,9 @@
         </hotpoints>
     </product>
     <product id="prod7">
+        <category>gadgets</category>
         <productHeader>Virtual Reality Eye Drops</productHeader>
-        <pictureLink>../images/</pictureLink>
+        <pictureLink><img href="../images/"></pictureLink>
         <price>500</price>
         <inStock>15</inStock>
         <productInfo> The newest in Virtual Reality simulation. Forget everything you have seen
@@ -107,8 +114,9 @@
         </hotpoints>
     </product>
     <product id="prod8">
+        <category>gadgets</category>
         <productHeader>Zero Point Gravity Manipulator</productHeader>
-        <pictureLink>../images/</pictureLink>
+        <pictureLink><img href="../images/"></pictureLink>
         <price>50000</price>
         <inStock>3</inStock>
         <productInfo>the Zero Point Gravity Manipulator or gravity gun for short means 
@@ -122,8 +130,9 @@
         </hotpoints>
     </product>
     <product id="prod9">
+        <category>gadgets</category>
         <productHeader>The Internet Cube</productHeader>
-        <pictureLink>../images/</pictureLink>
+        <pictureLink><img href="../images/"></pictureLink>
         <price>3.50</price>
         <inStock>3</inStock>
         <productInfo> Ships inside bottles is so last century. Now you can get the Internet 
@@ -138,8 +147,9 @@
             <points>Comes with a free pair of socks</points>
         </hotpoints>
     <product id="prod10">
+        <category>other</category>
         <productHeader>Be your self-costume</productHeader>
-        <pictureLink>../images/bsinessman.png</pictureLink>
+        <pictureLink><img href="../images/bsinessman.png"></pictureLink>
         <price>75</price>
         <inStock>200</inStock>
         <productInfo>With this spectacular new costume, you can be yourself all the time. No need for a halloween-costume, just be yourself with this spectacular costume.
@@ -151,8 +161,9 @@
         </hotpoints>
     </product>
     <product id="prod11">
+        <category>gadgets</category>
         <productHeader>Keyless Keyboard</productHeader>
-        <pictureLink>../images/keylesskeyboard.jpg</pictureLink>
+        <pictureLink><img href="../images/keylesskeyboard.jpg"></pictureLink>
         <price>50</price>
         <inStock>49</inStock>
         <productInfo>Hate typing? With the Keyless Keyboard from Sad Penguin Fun Shop, you never have to type again. Just plug it into your computer and enjoy your Keyless life.
@@ -164,8 +175,9 @@
         </hotpoints>
     </product>
     <product id="prod12">
+        <category>other</category>
         <productHeader>Mystery package</productHeader>
-        <pictureLink>../images/mysterypackage.jpg</pictureLink>
+        <pictureLink><img href="../images/mysterypackage.jpg"></pictureLink>
         <price>70</price>
         <inStock>∞</inStock>
         <productInfo> A package that contains a surprise. It might be something we sell or it might be something completely different. It's a SURPRISE!
