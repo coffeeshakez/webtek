@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="no">
+    <meta charset="UTF-8">
+    <title>Sad Penguin Fun Stuff</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/sad.ico" >
+    <script type="text/javascript" src="dropdowntest.js"></script>
+
+
+</head>
+
+<body>
+	<div id="mainContent">
+
+		<div id = "header">
+			<img id="headerPic" src="images/headerPic.png" alt="headerPic" width=150 height=150>
+			<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
+		</div>
+
+	<div id="nav">
+	    <ul id="sddm">
+	    	<li><a href="index.html">Home</a></li>
+	    	<li><a href="products/product.html" 
+	        	onmouseover="mopen('m1')" 
+	        	onmouseout="mclosetime()">Products</a>
+	        	<div id="m1" 
+	            	onmouseover="mcancelclosetime()" 
+	            	onmouseout="mclosetime()">
+	        		<a href="">Category1</a>
+	        		<a href="#">Category2</a>
+	        		<a href="#">Category3</a>
+	        		<a href="#">Category4 </a>
+	        	</div>
+	    	</li>
+		    <li><a href="contact.html">Contact</a></li>
+		    <li><a href="about.html">About</a></li>
+		    <li><a href="#">Sitemap</a></li>
+		</ul>
+	</div>
+
+
+
+	<div id = "contentContainer">
+		<div>
+			<video id="video" poster="headerPic.png" controls preload>
+				<source src="/images/tsp.avi" type='video/avi'/>
+				<source src="/images/tsp.mov" type="video/mov"/>
+				<p>Your browser does not support the videotag in HTML5</p>
+			</video>
+		</div>
+	</div>
+
+ <footer class="textAlignCenter"> All rights reserved</footer>
+</div> 
+
+</body>
+</html>

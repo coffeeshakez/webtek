@@ -218,7 +218,7 @@ footer{
 }
 #productInfo{
 	width:500px;
-    height:500px;
+    height:520px;
     margin-right:auto;
     margin-left: auto;
     float: left;
@@ -228,7 +228,7 @@ footer{
 }
 #goback{
 	width:324px;
-    height:500px;
+    height:520px;
     margin-right:auto;
     margin-left: auto;
     float: left;
@@ -240,7 +240,7 @@ footer{
 }
 #goforward{
 	width:324px;
-    height:500px;
+    height:520px;
     margin-left: auto;
 
 }
