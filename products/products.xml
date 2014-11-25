@@ -80,7 +80,7 @@
     <product id="prod6">
         <category>other</category>
         <productHeader>Fake Real beard</productHeader>
-        <pictureLink><img href="../images/"></pictureLink>
+        <pictureLink><img href="../images/fakerealbeard.jpg"></pictureLink>
         <price>40</price>
         <inStock>50</inStock>
         <productInfo>Do you want to look like the manly man you are on the inside,
@@ -99,7 +99,7 @@
     <product id="prod7">
         <category>gadgets</category>
         <productHeader>Virtual Reality Eye Drops</productHeader>
-        <pictureLink><img href="../images/"></pictureLink>
+        <pictureLink><img href="../images/eyedrops.jpg"></pictureLink>
         <price>500</price>
         <inStock>15</inStock>
         <productInfo> The newest in Virtual Reality simulation. Forget everything you have seen
@@ -116,7 +116,7 @@
     <product id="prod8">
         <category>gadgets</category>
         <productHeader>Zero Point Gravity Manipulator</productHeader>
-        <pictureLink><img href="../images/"></pictureLink>
+        <pictureLink><img href="../images/manipulator.jpg"></pictureLink>
         <price>50000</price>
         <inStock>3</inStock>
         <productInfo>the Zero Point Gravity Manipulator or gravity gun for short means 
@@ -132,7 +132,7 @@
     <product id="prod9">
         <category>gadgets</category>
         <productHeader>The Internet Cube</productHeader>
-        <pictureLink><img href="../images/"></pictureLink>
+        <pictureLink><img href="../images/netcube.jpg"></pictureLink>
         <price>3.50</price>
         <inStock>3</inStock>
         <productInfo> Ships inside bottles is so last century. Now you can get the Internet 
@@ -149,7 +149,7 @@
     <product id="prod10">
         <category>other</category>
         <productHeader>Be your self-costume</productHeader>
-        <pictureLink><img href="../images/bsinessman.png"></pictureLink>
+        <pictureLink><img href="../images/businessman.png"></pictureLink>
         <price>75</price>
         <inStock>200</inStock>
         <productInfo>With this spectacular new costume, you can be yourself all the time. No need for a halloween-costume, just be yourself with this spectacular costume.
