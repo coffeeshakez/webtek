@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>products</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" href="/images/sad.ico" >
+	<script type="text/javascript" src="scripts/products.js"></script>
+	<script type="text/javascript" src="scripts/dropdown.js"></script>
+
+</head>
+<body>
+	
+
+<div id="mainContent">
+	
+	<div id = "header">
+		<img id="headerPic" src="../images/headerPic.png" alt="headerPic" width="150px" height="150px">
+		<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
+	</div>
+
+	<div id="nav">
+    	<ul id="sddm">
+    		<li><a href="index.html">Home</a>
+        
+    		</li>
+			<li><a href="products.html?index=0" 
+       			onmouseover="mopen('m1')" 
+        		onmouseout="mclosetime()">Products</a>
+        		<div id="m1" 
+            	onmouseover="mcancelclosetime()" 
+            	onmouseout="mclosetime()">
+        		<a href="categories.html?cat=gadgets">Gadgets</a>
+        		<a href="categories.html?cat=lifehack">LifeHacks</a>
+        		<a href="categories.html?cat=other">Other</a>
+    			</div>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="ourmascot.html">Our Mascot</a></li>
+		    <li><a href="faq.html">FAQ</a></li>
+		    <li><a href="sitemap.html">Sitemap</a></li>
+		</ul>
+	</div>
+
+	<div id="goback"><button onclick="previousItem()"><img src="../images/arrow-left.jpg"></button></div>
+
+	<div id = "product">
+		<div id = "productheader"></div>
+		<div id = "prodpic"></div>
+		<ul id = "hotpoints"></ul>
+		<br><br><br><br><br><br>
+		<div id = "productInfo"></div>
+		<br>
+		<div id = "price"></div>
+		<br>
+		<div id = "inStock"></div>	
+	</div>	
+
+	<div id="goforward"><button onclick="nextItem()"><img src="../images/arrow-right.jpg"></button></div>
+
+	<footer class="textAlignCenter"> All rights reserved</footer>
+	
+
+</div>
+</body>
+</html>

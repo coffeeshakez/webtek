@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" href="images/sad.ico" >
+	<script type="text/javascript" src="scripts/dropdown.js"></script>
+</head>
+<body>
+
+	<div id="mainContent">
+	
+	<div id = "header">
+		<img id="headerPic" src="images/headerPic.png" alt="headerPic" width="150px" height="150px">
+		<h1 id = "HeaderFont">Sad Penguin Fun Shop</h1>
+	</div>
+
+	<div id="nav">
+    <ul id="sddm">
+    <li><a href="index.html">Home</a>
+        
+    </li>
+    <li><a href="product.html?index=0" 
+        onmouseover="mopen('m1')" 
+        onmouseout="mclosetime()">Products</a>
+        <div id="m1" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="categories.html?cat=gadgets">Gadgets</a>
+        <a href="categories.html?cat=lifehack">LifeHacks</a>
+        <a href="categories.html?cat=other">Other</a>
+        </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="ourmascot.html">Our Mascot</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="sitemap.html">Sitemap</a></li>
+</ul>
+
+</div>
+	
+	<div class="centeredBox textAlignRight" >
+
+	<form id="contact" action ="" method="GET">
+
+		<h4 style="text-align:left;">If you do not find the answer to your question in our <a href="">FAQ</a><br> please send us your question below. Fields marked with * are required.</h4>
+
+		<label>* Name</label><input type="text" name="name" size="50" required><br>
+		<label>* Email</label><input type="email" name="email" size="50" required><br>
+		<label>* Question</label><textarea rows="6" cols="36" required></textarea>
+		<input type="submit">
+	</form>
+</div>
+
+<footer class="textAlignCenter"> All rights reserved</footer>
+
+</div>
+
+</body>
+</html>
