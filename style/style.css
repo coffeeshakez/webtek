@@ -10,7 +10,7 @@
 	
 	width: 100%;
 	background-color: white;
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 	padding-top: 10px;
 	margin: 0px;
 }
@@ -24,7 +24,7 @@
 #HeaderFont{
 	font-family: 'HeaderFont', sans-serif;
 	font-size: 500%;
-	margin-top: 0;
+	margin-top: 30px;
 }
 
 body, html{
