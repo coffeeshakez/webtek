@@ -9,7 +9,7 @@ HTML: The skeleton of our webpage. We have used some of the new technology HTML5
 
 Validating forms: Used "required" on the "Contact us"-form, both Name and Email is required to press the submit-button. Also used the email-type, so the email-input from the user has to be on the form: "something@somthing" or "some@some.com".
 
-Javascript: Javascript is being used to make the dropdown-menu from the navigationbar. It's also being used to make the canvas at the "About"-page. Lastly it's being used to read the XML-file, and view it in the correct containers. The script files has been separated some, to make it more readable, and to make it uncluttered when going through the files.
+Javascript: Javascript is being used to make the dropdown-menu from the navigationbar. It's also being used to make the canvas at the "About"-page. Lastly it's being used to read the XML-file, and view it in the correct containers. The script files has been separated some, to make it more readable, and to make it tidy when going through the files.
 
 
 
