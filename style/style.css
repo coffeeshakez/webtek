@@ -52,6 +52,34 @@ body, html{
 
 }
 
+#contents {
+	width: 80%;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: auto;
+
+}
+#contents p{
+	text-align: center;
+	font-size: 150%;
+	font-family: helvetica, sans-serif;
+}
+#ptop{
+	margin-top: 70px;
+}
+#offer{
+	margin-bottom: 70px;
+}
+#offerlink{
+	text-align: center;
+	font-size: 350%
+}
+#offerButton{
+	float: center;
+	width: 300px;
+}
+
 #contentContainer .product{
 	width: 20%;
 	max-height: 300px;
