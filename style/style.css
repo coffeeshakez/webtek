@@ -73,7 +73,9 @@ body, html{
 }
 #offerlink{
 	text-align: center;
-	font-size: 350%
+	font-size: 350%;
+	font-family: helvetica, sans-serif;
+
 }
 #offerButton{
 	float: center;
