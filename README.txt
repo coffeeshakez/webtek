@@ -24,10 +24,10 @@ The pages uses a maincontainer to hold all the elements. The reason for this is 
 
 ProductLinks: The links to the products uses a paremeter in the url. It uses the index of where the product is in the xml document list. starting at 0, and ends at the last product. 
 
-Javascript on dropdown menu: The dropdown menu uses javascript and css to work properly. The dropdown dropdown is hidden until you hover over the parent. When it is hovered over the javascript changes the css for the hidden menu so that it is viewed. There is functions to secure that if you hover out of the root, and into the submenu, it will still be shown, and not closed right away. 
+Javascript on dropdown menu: The dropdown menu uses javascript and css to work properly. The dropdown dropdown is hidden until you hover over the parent. When it is hovered over the javascript changes the css for the hidden menu so that it is viewed. There is functions to secure that if you hover out of the root, and into the submenu, it will still be shown, and not be closed right away. 
 
 
-Techniques used the specific webpages:
+Techniques used on a specific webpage:
 
 * Sitemap.html
 We’re using relative link paths to link to the different sites on our webpage. Also using lists to display the site map.
